@@ -1,0 +1,30 @@
+.game-info {
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 160rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  z-index: 1;
+
+  @media only screen and (min-width: 500px) {
+    padding: 0;
+    width: 80%;
+  }
+}
+
+.board {
+  position: relative;
+  width: 100%;
+  max-width: 160rem;
+  height: 80vh;
+  min-height: 45rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  user-select: none;
+
+  @media only screen and (min-width: 500px) {
+    width: 80%;
+  }
+}

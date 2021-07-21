@@ -1,0 +1,16 @@
+.circle {
+  position: absolute;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  cursor: grab;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  img {
+    max-width: 100%;
+    object-fit: contain;
+    pointer-events: none;
+  }
+}
