@@ -42,6 +42,7 @@ const Board = () => {
       setCirclePositions(circles);
       setLinePositions(lines);
       setIsLevelOver(false);
+      setMovesCount(0);
     }
 
     if (level > 5) {
